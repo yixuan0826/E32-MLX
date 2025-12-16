@@ -1,0 +1,12 @@
+//将注释加在Arduino/libraries/TFT_eSPI/User_Setup.h
+// 常用的ESP32 TFT显示屏配置示例
+#define ESP32_PARALLEL
+#define ILI9341_DRIVER
+
+// 引脚定义 - 根据您的实际接线修改
+#define TFT_CS   5    // 芯片选择
+#define TFT_DC   2    // 数据/命令
+#define TFT_RST  4    // 复位引脚
+
+#define TFT_WIDTH  240
+#define TFT_HEIGHT 320
